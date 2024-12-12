@@ -35,6 +35,8 @@ Is ./data
 ls ./data/raw
 
 
+# 3. List the contents of the ./data/raw directory
+ls ./data/raw
 # 4. In ./data/processed, create the following directories: server_logs, user_logs, and event_logs
 # Command:
 mkdir -p ./data/processed/server_logs ./data/processed/user_logs ./data/processed/event_logs
@@ -63,10 +65,13 @@ rm ./data/processed/user_logs/*ipaddr*
 
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
  touch ./data/inventory.txt ./data/processed
+touch ./data/inventory.txt ./data/processed
 
 
 
 bash assignment.sh
+
+
 ###########################################
 
 echo "Project setup is complete!"
